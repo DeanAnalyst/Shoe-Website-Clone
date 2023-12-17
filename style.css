@@ -84,13 +84,15 @@ nav {
 
 .slider{
     background: url('./img/city.jpg') no-repeat center center fixed;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    overflow: hidden;
 
 }
 
 .sliderWrapper {
     display: flex;
     width: 500vw;
+    transition: all 1.5s ease-in-out;
 }
 
 .sliderItem {
