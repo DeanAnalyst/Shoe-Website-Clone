@@ -92,7 +92,11 @@ nav {
 .sliderWrapper {
     display: flex;
     width: 500vw;
+<<<<<<< HEAD
     transition: all 1.5s ease-in-out;
+=======
+    transition: all 1s ease-in-out;
+>>>>>>> 1fef81a1592ef04ccae55acdbbefa35321f3ce7a
 }
 
 .sliderItem {
