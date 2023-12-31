@@ -431,5 +431,130 @@ label {
     padding: 15px;
     font-weight: 600;
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.fMenutitle {
+    font-size: 16px;
+}
+
+.fMenuList {
+    list-style: none;
+    padding: 0;
+}
+
+.fMenuListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.footerRight {
+    flex:1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+.fMailBtn {
+    padding: 5px;
+    background-color: black;
+    color : white;
+}
+
+.fIcon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+    .sliderWrapper {
+        width: 1000vw;
+    }
+    .sliderItem {
+        width: 1000px;
+    }
+    .sliderTitle {
+        font-size: 30px;
+    }
+    .sliderPrice {
+        font-size: 30px;
+    }
+    .sliderBtn {
+        font-size: 20px;
+    }
+    .product {
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    }
+    .productImg {
+        width: 100%;
+    }
+    .productDetails {
+        width: 100%;
+        padding: 20px;
+    }
+    .productTitle {
+        font-size: 50px;
+    }
+    .productDesc {
+        font-size: 20px;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .galleryItem {
+        padding: 20px;
+    }
+    .galleryImg {
+        width: 100%;
+    }
+    .newSeason {
+        flex-direction: column;
+    }
+    .nsItem {
+        padding: 20px;
+    }
+    .nsImage {
+        height: 300px;
+    }
+    .nsTitle {
+        font-size: 30px;
+    }
+    .nsButton {
+        padding: 10px;
+    }
+    .footerLeft {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerRight {
+        padding: 20px;
+    }
+    .fInput {
+        width: 100%;
+    }
+    .fMailBtn {
+        width: 100%;
+    }
     
 }
